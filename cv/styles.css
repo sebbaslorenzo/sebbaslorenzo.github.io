@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+.column.one {
+    flex-basis: calc(50% - 15px);
+}
+
+.column.two {
+    flex-basis: calc(45% - 20px);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+ul li:before {
+    content: '\2022';
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.skills .skill {
+    flex-basis: calc(25% - 10px);
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    display: none;
+}
+
+button {
+	padding: 10px;
+	background-color: #6A68F7;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#html-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    animation: float 2s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  div i {
+    font-size: 80px;
+    align-self: auto;
+  }
+
+  .Alinear_imagen {
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 20px;
+  }
