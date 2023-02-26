@@ -98,14 +98,18 @@ header {
 }
 
 button {
-	padding: 10px;
-	background-color: #6A68F7;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	margin-right: 10px;
-	cursor: pointer;
+  padding: 10px;
+  background-color: #6A68F7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 15px;
 }
+
 
 #html-icon {
     position: fixed;
